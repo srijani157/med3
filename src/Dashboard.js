@@ -178,7 +178,7 @@ function Dashboard() {
               </div>
             </div>
             <div class="row">
-              <div class="col-md-10 col-sm-12 col3">
+              <div class="col-md-10 col-sm-12 col-lg-9 col3">
                 <textarea
                   placeholder="  Write your question here"
                   type="text"
@@ -193,14 +193,14 @@ function Dashboard() {
                 ></textarea>
               </div>
               <div
-                class="col-md-2 col-sm-12 col4"
+                class="col-md-10 col-sm-12 col-lg-3 col4"
                 style={{ alignSelf: "center" }}
               >
                 <button class="btn btn2"> Start Chat </button>
               </div>
             </div>
             <div class="row">
-              <div class="col-md-12 col-sm-12">
+              <div class="col-md-12 col-sm-12 col-lg-12">
                 <h3
                   style={{
                     color: "darkblue",
@@ -214,15 +214,16 @@ function Dashboard() {
               </div>
             </div>
             <div class="row">
-              <div class="col-md-4 col-sm-12">
+              <div class="col-md-4 col-sm-12 col-lg-4">
                 <div class="card card3">
-                  <div class="row">
-                    <div class=" col-xs-12 col-sm-12 col-md-7 col-lg-7">
-                      <p style={{ color: "white", margin: "5px" }} class="p1">
+                  <div class="row" style={{ fontSize: "small" }}>
+                    <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-7">
+                      {/* Satyaki */}
+                      <p style={{ color: "white", margin: "5px" }} class="p1"> 
                         20thJanuary2020
                       </p>
                     </div>
-                    <div class="col-sm-12 col-md-5 col-lg-5">
+                    <div class="col-sm-12 col-md-12 col-lg-5">
                       <p style={{ color: "red", margin: "5px" }} class="p1">
                         Psychology
                       </p>
@@ -235,36 +236,36 @@ function Dashboard() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-12">
+              <div class="col-md-4 col-sm-12 col-lg-4">
                 <div class="card card3">
-                  <div class="row">
-                    <div class=" col-xs-12 col-sm-12 col-md-7 col-lg-7">
-                      <p style={{ color: "white", margin: "5px" }} class="p1">
-                        20thJanuary2020
-                      </p>
-                    </div>
-                    <div class="col-sm-12 col-md-5 col-lg-5">
-                      <p style={{ color: "red", margin: "5px" }} class="p1">
-                        Psychology
-                      </p>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                      <img src={img1} alt="news" class="img1"></img>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-12">
-                <div class="card card3">
-                  <div class="row">
+                  <div class="row" style={{ fontSize: "small" }}>
                     <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-7">
                       <p style={{ color: "white", margin: "5px" }} class="p1">
                         20thJanuary2020
                       </p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-5">
+                      <p style={{ color: "red", margin: "5px" }} class="p1">
+                        Psychology
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                      <img src={img1} alt="news" class="img1"></img>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12 col-lg-4">
+                <div class="card card3">
+                  <div class="row" style={{fontSize: "small"}}>
+                    <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-7">
+                      <p style={{ color: "white", margin: "5px" }} class="p1">
+                        20thJanuary2020
+                      </p>
+                    </div>
+                    <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-5">
                       <p style={{ color: "red", margin: "5px" }} class="p1">
                         Psychology
                       </p>
