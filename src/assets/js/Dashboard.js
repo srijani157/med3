@@ -1,20 +1,20 @@
 import React from "react";
-import icon1 from "./u_dash_icon1.png";
-import icon2 from "./u_dash_icon2.png";
-import icon3 from "./u_dash_icon3.png";
-import icon4 from "./u_dash_icon4.png";
-import icon5 from "./menu_dash_icon.png";
-import icon6 from "./menu_icon_profile.png";
-import icon7 from "./menu_icon_restriction.png";
-import icon8 from "./menu_icon_appointment.png";
-import icon9 from "./menu_icon_history.png";
-import icon10 from "./menu_icon_family.png";
-import icon11 from "./menu_icon_review.png";
-import icon12 from "./menu_icon_wallet.png";
-import icon13 from "./menu_icon_notifications.png";
-import icon14 from "./menu_icon_logout.png";
-import img1 from "./news_img1.jpg";
-import "./dash.css";
+import icon1 from "../img/u_dash_icon1.png";
+import icon2 from "../img/u_dash_icon2.png";
+import icon3 from "../img/u_dash_icon3.png";
+import icon4 from "../img/u_dash_icon4.png";
+import icon5 from "../img/menu_dash_icon.png";
+import icon6 from "../img/menu_icon_profile.png";
+import icon7 from "../img/menu_icon_restriction.png";
+import icon8 from "../img/menu_icon_appointment.png";
+import icon9 from "../img/menu_icon_history.png";
+import icon10 from "../img/menu_icon_family.png";
+import icon11 from "../img/menu_icon_review.png";
+import icon12 from "../img/menu_icon_wallet.png";
+import icon13 from "../img/menu_icon_notifications.png";
+import icon14 from "../img/menu_icon_logout.png";
+import img1 from "../img/news_img1.jpg";
+import "../css/dash.css";
 
 // import "./App.css";
 
@@ -219,7 +219,7 @@ function Dashboard() {
                   <div class="row" style={{ fontSize: "small" }}>
                     <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-7">
                       {/* Satyaki */}
-                      <p style={{ color: "white", margin: "5px" }} class="p1"> 
+                      <p style={{ color: "white", margin: "5px" }} class="p1">
                         20thJanuary2020
                       </p>
                     </div>
@@ -259,7 +259,7 @@ function Dashboard() {
               </div>
               <div class="col-md-4 col-sm-12 col-lg-4">
                 <div class="card card3">
-                  <div class="row" style={{fontSize: "small"}}>
+                  <div class="row" style={{ fontSize: "small" }}>
                     <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-7">
                       <p style={{ color: "white", margin: "5px" }} class="p1">
                         20thJanuary2020
